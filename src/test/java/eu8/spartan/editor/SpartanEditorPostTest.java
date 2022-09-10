@@ -1,5 +1,6 @@
 package eu8.spartan.editor;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import utilities.SpartanNewBase;
@@ -24,7 +25,7 @@ import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.baseURI;
 
 import static net.serenitybdd.rest.SerenityRest.given;
-
+@Disabled
 @SerenityTest
 public class SpartanEditorPostTest extends SpartanNewBase {
     @DisplayName("Editor should be able to POST")
